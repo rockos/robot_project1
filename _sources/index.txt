@@ -9,7 +9,7 @@ Welcome to robot_project1's documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1 
 
    speak_bluetooth
    measure_distance
