@@ -1,0 +1,48 @@
+=========================
+コンピュータと話す
+=========================
+
+
+:著者: msyaono
+:出版社: Maykid
+
+.. csv-table:: 準備するもの
+  :widths: 15 50
+  :header-rows: 1
+
+  * - 名前
+    - 仕様
+  * - マイコン
+    - Arduino UNO
+  * - Bluetoothデバイス
+    - JY-MCU Bluetooth to UART Wireless Serial Port Module for Arduino
+
+
+  [参照1]_ Using the HC-06 Bluetooth Module
+  [参考2]_ Bluetooth serial communication with Mac, JY-MCU Bluetooth and Arduino
+
+接続図
+**********
+
+JY-MCU と Arduino はクロス配線となるように接続する。
+JY-MCU の RX 端子を Arduino デジタルピン 1番(TX) につなぎ、JY-MCU の TX 端子を Arduino デジタルピン 0 番 (RX) につなぐ。
+
+
+ソースコード
+*************
+
+Arduino に以下のコードをアップロードしておく。
+
+.. code-block:: c
+
+   void setup() {
+     Serial.begin(9600);
+     }
+      
+     void loop() {
+       delay(1000);
+         Serial.println("hello world!");
+     }
+
+[参照1] <http://mcuoneclipse.com/2013/06/19/using-the-hc-06-bluetooth-module/>
+[参照2] <https://decyborg.wordpress.com/2013/09/08/bluetooth-serial-communication-with-arduino-jy-mcu-bluetooth-and-macbook-pro/>

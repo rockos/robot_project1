@@ -11,12 +11,13 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-
+   speak_bluetooth
+   measure_distance
 
 Indices and tables
 ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
+# * :ref:`genindex`
+# * :ref:`modindex`
 * :ref:`search`
 
