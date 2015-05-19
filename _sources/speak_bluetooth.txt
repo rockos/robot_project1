@@ -44,5 +44,14 @@ Arduino に以下のコードをアップロードしておく。
          Serial.println("hello world!");
      }
 
+Mac からデバイスに接続する
+**************************
+
+1. システム環境設定 > Bluetooth を開く。
+2. デバイスに HC-06 と表示されるので、ペアリングを押す。
+3. ペアリングできませんでしたと表示されるので、オプションを選択してコード欄に 1234 と入力して再度ペアリングを押す。
+4. HC-06 接続済みとなる。
+
+
 [参照1] <http://mcuoneclipse.com/2013/06/19/using-the-hc-06-bluetooth-module/>
 [参照2] <https://decyborg.wordpress.com/2013/09/08/bluetooth-serial-communication-with-arduino-jy-mcu-bluetooth-and-macbook-pro/>
