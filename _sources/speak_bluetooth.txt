@@ -7,15 +7,15 @@
 :出版社: Maykid
 
 .. csv-table:: 準備するもの
-  :header: "名前,"仕様"
-  :widths: 15, 50
+  :header: "名前","仕様"
+  :widths: 15, 30
 
-  "マイコン"," Arduino UNO"
+  "マイコン","Arduino UNO"
   "Bluetoothデバイス","JY-MCU Bluetooth to UART Wireless Serial Port Module for Arduino"
 
 
-[参照1]_ Using the HC-06 Bluetooth Module
-[参考2]_ Bluetooth serial communication with Mac, JY-MCU Bluetooth and Arduino
+- [参照1]_ Using the HC-06 Bluetooth Module
+- [参照2]_ Bluetooth serial communication with Mac, JY-MCU Bluetooth and Arduino
 
 接続図
 **********
@@ -49,5 +49,5 @@ Mac からデバイスに接続する
 4. HC-06 接続済みとなる。
 
 
-[参照1] <http://mcuoneclipse.com/2013/06/19/using-the-hc-06-bluetooth-module/>
-[参照2] <https://decyborg.wordpress.com/2013/09/08/bluetooth-serial-communication-with-arduino-jy-mcu-bluetooth-and-macbook-pro/>
+.. [参照1] <http://mcuoneclipse.com/2013/06/19/using-the-hc-06-bluetooth-module/>
+.. [参照2] <https://decyborg.wordpress.com/2013/09/08/bluetooth-serial-communication-with-arduino-jy-mcu-bluetooth-and-macbook-pro/>
